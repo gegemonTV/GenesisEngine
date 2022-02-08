@@ -28,9 +28,11 @@ bool GenApp::OnInit() {
     
     Current_Scene = new GenScene(1, Window);
 
-    auto TryGO = GenGameObject();
+    GenGameObject * TryGO = new GenGameObject();
+    GenPoint * p = new GenPoint(10,10);
+    TryGO->SetDrawableObject(p);
 
-    Current_Scene->AddObject(&TryGO, 1);
+    Current_Scene->AddObject(TryGO, 1);
 
     return true;
 }
