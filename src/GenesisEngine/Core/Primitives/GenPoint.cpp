@@ -19,3 +19,15 @@ bool GenPoint::IsChoosed(int x, int y){
 }
 
 void GenPoint::Update() {}
+
+int GenPoint::GetX() {
+    return x;
+}
+
+int GenPoint::GetY() {
+    return y;
+}
+
+void GenPoint::SetX(int x) {}
+
+void GenPoint::SetY(int y) {}

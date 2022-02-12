@@ -16,4 +16,10 @@ class GenPoint : public GenBasic {
         void Draw(SDL_Renderer * Renderer) override;
 
         bool IsChoosed(int x, int y) override; 
+
+        int GetX();
+        int GetY();
+
+        void SetX(int x);
+        void SetY(int y);
 };

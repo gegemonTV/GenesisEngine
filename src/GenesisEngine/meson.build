@@ -7,6 +7,7 @@ lib_src = [
     'GenApp_OnCleanup.cpp', 
     'GenesisSurface/GenSurface.cpp',
     'Core/Primitives/GenPoint.cpp',
+    'Core/Primitives/GenLine.cpp',
     'Core/Scene/GenLayer.cpp',
     'Core/Scene/GenScene.cpp',
     'Core/GameObject/GenGameObject.cpp']
